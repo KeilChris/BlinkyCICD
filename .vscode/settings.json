@@ -1,0 +1,5 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=/Users/chrsei01/02_Git/KeilChris/BlinkyCICD/out/Blinky/B-U585I-IOT02A/Debug"
+    ]
+}

@@ -1,0 +1,18 @@
+build-idx:
+  generated-by: csolution version 2.8.0
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: Blinky.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Blinky.cproject.yml
+  cbuilds:
+    - cbuild: Blinky.Debug+B-U585I-IOT02A.cbuild.yml
+      project: Blinky
+      configuration: .Debug+B-U585I-IOT02A
+      clayers:
+        - clayer: STM32CubeMX/B-U585I-IOT02A/Blinky.cgen.yml
+      messages:
+        info:
+          - Blinky.cbuild-pack.yml - file is already up-to-date
+          - Blinky+B-U585I-IOT02A.cbuild-run.yml - file generated successfully
+          - Blinky.Debug+B-U585I-IOT02A.cbuild.yml - file generated successfully

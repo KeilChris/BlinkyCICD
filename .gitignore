@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CMSIS-Toolbox Files
+out**
+tmp**
+.DS_Store**
