@@ -40,4 +40,4 @@ jobs:
       - name: Build
         run: |
           echo "Building Blinky example ..."
-          cbuild Blinky.csolution.yml --packs --update-rte --context .debug+avh 
+          cbuild Blinky.csolution.yml --packs --update-rte --context .Debug+B-U585I-IOT02A

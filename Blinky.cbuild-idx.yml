@@ -15,4 +15,4 @@ build-idx:
         info:
           - Blinky.cbuild-pack.yml - file is already up-to-date
           - Blinky+B-U585I-IOT02A.cbuild-run.yml - file generated successfully
-          - Blinky.Debug+B-U585I-IOT02A.cbuild.yml - file generated successfully
+          - Blinky.Debug+B-U585I-IOT02A.cbuild.yml - file is already up-to-date
